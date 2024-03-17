@@ -1,0 +1,63 @@
+/** RESET **/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+:root {
+  /* PRIMARY */
+
+  --dark-cyan: hsl(192, 37%, 48%);
+  --dark-violet: hsl(268, 34%, 53%);
+  --ebony-Clay: hsl(240, 21%, 20%);
+  --light-blue-purple: hsl(240, 10%, 57%);
+
+  /* NEUTRAL */
+  --sky: hsl(192, 90%, 77%);
+  --pink: hsl(268, 100%, 86%);
+  --white: hsl(0, 0%, 98%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+}
