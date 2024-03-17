@@ -60,4 +60,24 @@ h6 {
 body {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
+  min-height: 100vh;
+
+  margin: 0 auto;
+  max-width: 23.43rem;
 }
+
+.max-width-wrapper {
+  max-width: 1440px;
+  margin: 0 10px;
+}
+
+/* HEADER */
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 54px;
+}
+
+/* HEADER IMAGES */
