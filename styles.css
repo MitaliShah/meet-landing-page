@@ -61,7 +61,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
   min-height: 100vh;
-
+  font-size: 16px;
   margin: 0 auto;
   max-width: 23.43rem;
 }
@@ -80,4 +80,54 @@ body {
   margin-bottom: 54px;
 }
 
-/* HEADER IMAGES */
+.header-content {
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 64px;
+  padding: 0 24px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 44/16;
+}
+
+.heading-content {
+  line-height: 1.6;
+  color: var(--light-blue-purple);
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.download-btn {
+  background-color: var(--dark-cyan);
+  padding: 16px 40px;
+}
+
+.whatisit-btn {
+  background-color: var(--dark-violet);
+  padding: 16px 40px;
+}
+
+.download-btn,
+.whatisit-btn {
+  color: var(--white);
+  text-decoration: none;
+  border: none;
+  border-radius: 2rem;
+  line-height: 1.6;
+}
+
+.download-btn span {
+  color: var(--sky);
+  margin-left: 4px;
+}
