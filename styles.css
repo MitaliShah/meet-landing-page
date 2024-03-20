@@ -67,7 +67,7 @@ body {
 }
 
 .max-width-wrapper {
-  max-width: 1440px;
+  max-width: 24.68rem;
   margin: 0 10px;
 }
 
@@ -106,6 +106,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 16px;
+  margin-bottom: 64px;
 }
 
 .download-btn {
@@ -130,4 +131,129 @@ body {
 .download-btn span {
   color: var(--sky);
   margin-left: 4px;
+}
+
+.top-devider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.verticle-line {
+  border-left: 1px solid var(--light-blue-purple);
+  height: 84px;
+  position: absolute;
+  left: 50%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-01 {
+  position: absolute;
+  top: 84px;
+  left: 50%;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  transform: translateX(-50%);
+  border: 1px solid var(--light-blue-purple);
+  color: var(--light-blue-purple);
+  font-weight: bold;
+  background-color: var(--white);
+}
+
+.gallery-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-top: 204px;
+}
+
+.gallery-section img {
+  width: 151px;
+  border-radius: 6px;
+}
+
+.main-content {
+  margin: 64px 24px;
+  text-align: center;
+}
+
+.main-content-title {
+  text-transform: uppercase;
+  color: var(--dark-cyan);
+  margin-bottom: 24px;
+  line-height: 1.6;
+  letter-spacing: 4px;
+}
+
+.main-content-heading {
+  font-size: 32px;
+  color: var(--ebony-Clay);
+  margin-bottom: 32px;
+  font-weight: bold;
+}
+.main-content-description {
+  line-height: 1.6;
+  color: var(--light-blue-purple);
+}
+
+.bottom-devider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-bottom: 50%;
+}
+
+.number-02 {
+  position: absolute;
+  top: 84px;
+  left: 50%;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  transform: translateX(-50%);
+  border: 1px solid var(--light-blue-purple);
+  color: var(--light-blue-purple);
+  font-weight: bold;
+  background-color: var(--white);
+}
+
+.footer-container {
+  background-size: cover;
+  background-image: linear-gradient(
+      hsl(192, 37%, 48%, 0.8),
+      hsl(192, 37%, 48%, 0.8)
+    ),
+    url("./assets/mobile/image-footer.jpg");
+  text-align: center;
+  padding: 92px 24px 72px;
+  color: var(--white);
+}
+
+.footer-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.footer-content {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 24px;
+}
+
+.footer-btn {
+  background-color: var(--dark-violet);
+  margin-top: 32px;
+}
+
+.footer-btn span {
+  color: var(--pink);
 }
