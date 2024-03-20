@@ -61,7 +61,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
   min-height: 100vh;
-  font-size: 16px;
+  font-size: 1rem;
   /* margin: 0 auto; */
   display: flex;
   flex-direction: column;
@@ -94,7 +94,7 @@ body {
 }
 
 .heading {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
   line-height: 44/16;
 }
@@ -207,7 +207,7 @@ body {
 }
 
 .main-content-heading {
-  font-size: 32px;
+  font-size: 2rem;
   color: var(--ebony-Clay);
   margin-bottom: 32px;
   font-weight: bold;
@@ -259,12 +259,12 @@ footer {
 }
 
 .footer-title {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .footer-content {
-  font-size: 18px;
+  font-size: 1.1rem;
   line-height: 1.6;
   margin-top: 24px;
 }
@@ -289,18 +289,21 @@ footer {
     margin: 0 auto;
     margin: 72px auto 80px;
   }
+
   .hero-img-left,
   .hero-img-right {
     display: none;
   }
+
   .btn {
     flex-direction: row;
     gap: 16px;
   }
 
   .heading {
-    font-size: 48px;
+    font-size: 3rem;
   }
+
   .gallery-section {
     margin-bottom: 48px;
   }
@@ -336,7 +339,7 @@ footer {
   }
 
   .heading {
-    font-size: 64px;
+    font-size: 4rem;
   }
 
   .footer-container {
